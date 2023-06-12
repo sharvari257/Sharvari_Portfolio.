@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(0,0,33); */
+    /* color: white; */
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-aroundw;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(210, 191, 229);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(16, 16, 17);
+}
+
+main hr {
+    border: 0;
+    background: black;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 65px 0;
+}
+
+.first>div {
+    width: 35%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.rightsection {
+    /* background-color: red; */
+    width: 80%;
+    margin: 10px 0;
+}
+
+.purple {
+    color: rgb(96, 62, 128);
+}
+
+#element {
+    color: rgb(96, 62, 128);
+}
+
+.secondsection,
+.about_section,
+.skills_section,
+.edu_section,
+.project_section,
+.contact_section {
+    max-width: 80vw;
+    margin: auto;
+    height: auto;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .text-grey {
+    color: gray;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    /* margin: 56px 0; */
+    display: flex;
+}
+
+
+.vertical-desc {
+    position: relative;
+    /* top: 60px; */
+    color: rgb(67, 66, 66);
+    width: 150px;
+    font-size: 15px;
+}
+
+.about_section .card-img-top {
+    padding: 30px 0;
+    border-radius: 100px;
+    width: 50%;
+    margin: 10px 0;
+}
+
+.about_section .row {
+    text-align: justify;
+}
